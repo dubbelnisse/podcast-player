@@ -6,6 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
+    "alt": "^0.18.2",
+    "alt-utils": "^1.0.0",
     "react-native": "^0.20.0"
   }
 }
