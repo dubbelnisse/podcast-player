@@ -8,6 +8,8 @@
   "dependencies": {
     "alt": "^0.18.2",
     "alt-utils": "^1.0.0",
-    "react-native": "^0.20.0"
+    "react-native": "^0.20.0",
+    "react-native-fs": "^1.2.0",
+    "react-native-sound": "^0.7.3"
   }
 }

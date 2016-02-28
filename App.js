@@ -3,9 +3,11 @@
 import React, {
   Component,
   StyleSheet,
-  View
+  View,
+  ScrollView
 } from 'react-native'
 
+import Player from './lib/components/Player/Player'
 import Search from './lib/components/Search/Search'
 
 import Dimensions from 'Dimensions'
@@ -14,18 +16,17 @@ const { width, height } = Dimensions.get('window')
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
+        <Player />
         <Search />
-      </View>
+      </ScrollView>
     )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'center',
     height: height,
-    justifyContent: 'center',
     padding: 40,
     width: width,
   }
